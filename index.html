@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/images/515122846_17885357487305530_947517403474724421_n.jpg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premier Properties - Luxury Real Estate Development</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta
+      property="og:image"
+      content="https://bolt.new/static/og_default.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://bolt.new/static/og_default.png"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img
+            src="/images/515122846_17885357487305530_947517403474724421_n.jpg"
+            alt="Property Pro Logo"
+            title="Property Pro Logo"
+            style="height: 40px; width: auto; margin-right: 8px"
+          />
+          Property Pro
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#properties">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-8 mx-auto text-center hero-content">
+            <h1 class="hero-title mb-4">Discover Your Dream Property</h1>
+            <p class="hero-subtitle mb-5">
+              Luxury Real Estate Development & Investment Opportunities
+            </p>
+            <div class="hero-buttons">
+              <a href="#properties" class="btn btn-primary btn-lg me-3"
+                >Explore Properties</a
+              >
+              <a href="#contact" class="btn btn-outline-light btn-lg"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="properties" class="properties-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Featured Properties</h2>
+          <p class="section-subtitle">
+            Handpicked selection of our finest developments
+          </p>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-8 mx-auto">
+            <div class="property-filters">
+              <button class="btn btn-filter active" data-filter="all">
+                All Properties
+              </button>
+              <button class="btn btn-filter" data-filter="Villa">Villas</button>
+              <button class="btn btn-filter" data-filter="Apartment">
+                Apartments
+              </button>
+              <button class="btn btn-filter" data-filter="Penthouse">
+                Penthouses
+              </button>
+              <button class="btn btn-filter" data-filter="House">Houses</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="propertiesGrid" class="row g-4">
+          <div class="col-12 text-center">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="About Us"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="section-title mb-4">Building Dreams Since 1995</h2>
+            <p class="lead mb-4">
+              With over 25 years of excellence in real estate development, we've
+              transformed countless visions into reality.
+            </p>
+            <p class="mb-4">
+              Our commitment to quality, innovation, and customer satisfaction
+              has made us a trusted name in luxury property development. We
+              specialize in creating exceptional residential and commercial
+              spaces that stand the test of time.
+            </p>
+            <div class="row mt-4">
+              <div class="col-6 mb-3">
+                <div class="stat-box">
+                  <h3 class="stat-number">50+</h3>
+                  <p class="stat-label">Properties Developed</p>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="stat-box">
+                  <h3 class="stat-number">98%</h3>
+                  <p class="stat-label">Client Satisfaction</p>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="stat-box">
+                  <h3 class="stat-number">5Cr+</h3>
+                  <p class="stat-label">Total Investment</p>
+                </div>
+              </div>
+              <div class="col-6 mb-3">
+                <div class="stat-box">
+                  <h3 class="stat-number">10+</h3>
+                  <p class="stat-label">Years Experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-subtitle">
+            Comprehensive real estate solutions tailored to your needs
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-buildings"></i>
+              </div>
+              <h3>Property Development</h3>
+              <p>
+                From concept to completion, we manage every aspect of property
+                development with precision and expertise.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h3>Investment Advisory</h3>
+              <p>
+                Expert guidance on real estate investments to maximize your
+                returns and build lasting wealth.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-house-check"></i>
+              </div>
+              <h3>Property Management</h3>
+              <p>
+                Comprehensive management services ensuring your property
+                maintains its value and appeal.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-hammer"></i>
+              </div>
+              <h3>Construction</h3>
+              <p>
+                State-of-the-art construction services with a focus on quality,
+                sustainability, and innovation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-clipboard-check"></i>
+              </div>
+              <h3>Legal Consultation</h3>
+              <p>
+                Professional legal support for all property transactions and
+                documentation needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-hand-thumbs-up"></i>
+              </div>
+              <h3>After-Sales Service</h3>
+              <p>
+                Dedicated support and maintenance services long after your
+                property purchase.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Client Testimonials</h2>
+          <p class="section-subtitle">What our valued clients say about us</p>
+        </div>
+        <div id="testimonialsCarousel" class="row g-4">
+          <div class="col-12 text-center">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h2 class="section-title mb-4">Get In Touch</h2>
+            <p class="mb-4">
+              Ready to find your dream property or discuss investment
+              opportunities? Our team is here to help you every step of the way.
+            </p>
+
+            <div class="contact-info mb-4">
+              <div class="contact-item mb-3">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div>
+                  <h5>Address</h5>
+                  <p>
+                    Plot No.123 Luxury Avenue, Nagpur-440021<br />Maharashtra
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item mb-3">
+                <i class="bi bi-telephone-fill"></i>
+                <div>
+                  <h5>Phone</h5>
+                  <p>+91787543XXXX</p>
+                </div>
+              </div>
+              <div class="contact-item mb-3">
+                <i class="bi bi-envelope-fill"></i>
+                <div>
+                  <h5>Email</h5>
+                  <p>info@propertypro.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock-fill"></i>
+                <div>
+                  <h5>Business Hours</h5>
+                  <p>
+                    Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM -
+                    4:00 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="contact-form-wrapper">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Your Phone"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <select class="form-select" id="propertyInterest">
+                    <option value="">Select a Property (Optional)</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg w-100">
+                  <span class="submit-text">Send Message</span>
+                  <span class="submit-loading d-none">
+                    <span class="spinner-border spinner-border-sm me-2"></span
+                    >Sending...
+                  </span>
+                </button>
+                <div id="formAlert" class="alert mt-3 d-none"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h4 class="mb-3"><i class="bi bi-building"></i> Property Pro</h4>
+            <p>
+              Building exceptional spaces and creating lasting value through
+              innovative real estate development.
+            </p>
+            <div class="social-links mt-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 mb-4 mb-lg-0">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#properties">Properties</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-4 mb-lg-0">
+            <h5 class="mb-3">Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#services">Development</a></li>
+              <li><a href="#services">Investment</a></li>
+              <li><a href="#services">Management</a></li>
+              <li><a href="#services">Construction</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-3">Newsletter</h5>
+            <p>Subscribe to get updates on new properties</p>
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email"
+                />
+                <button class="btn btn-primary" type="submit">
+                  <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 Property Pro. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
