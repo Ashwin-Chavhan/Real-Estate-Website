@@ -2,12 +2,14 @@
 
 A modern, fully functional real estate web app built using **HTML, CSS, and JavaScript**. This app showcases various types of properties including villas, houses, flats, plots, penthouses, and farms. Users can view property details, filter by property type, and send inquiries through a contact form.
 
+![Real Estate Website Preview](https://github.com/Ashwin-Chavhan/Real-Estate-Website/blob/main/images/Screenshot%20(220).png)
+
 ---
 
 ## 🚀 Live Demo
 
-Check out the live version of the app here: [Live Property Pro](https://yourusername.github.io/property-pro/)  
-*(Replace `yourusername` with your GitHub username and repository URL)*
+Check out the live version of the app here: [Live Website](https://real-estate-website-opal-three.vercel.app/)
+
 
 ---
 
@@ -29,7 +31,12 @@ Check out the live version of the app here: [Live Property Pro](https://youruser
 - Optional: [Bootstrap 5](https://getbootstrap.com/) – UI components and layout  
 
 ---
+## 📸 Screenshots
 
+### 💻 Desktop View
+![Desktop View](https://github.com/Ashwin-Chavhan/Real-Estate-Website/blob/main/images/Screenshot%20(220).png)
+
+---
 ## 📂 Folder Structure
 
 property-pro/
@@ -54,7 +61,7 @@ Copy code
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/property-pro.git
+   https://github.com/Ashwin-Chavhan/Real-Estate-Website.git
 Navigate to the project folder:
 
 bash
